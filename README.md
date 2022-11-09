@@ -23,12 +23,13 @@ mvn clean install
 ```bash
 mvn spring-boot:run
 ```
-The port is configured to be 5000.
+The application is deployed to AWS EBS.
 
 ## Running the Angular Application
 ### System Requirements
 
-* Needs Node.js
+* Requires Node.js - v18.11.0
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
 
 
 ### Start the application
@@ -43,10 +44,14 @@ npm install
 npm start
 ```
 
+The application is currently pointing to AWS EBS backend instance.
 
-Login details:
- ["username", 'password' ],
- ["auror", 'moody' ],
- ["snape", 'severus' ],
- ["azkaban", 'sirius' ]
+
+Seed data is already available on the instance from the testing.
+
+### Login details:
+ 1. username ~ password
+ 2. auror ~ moody - ADMIN
+ 3. snape ~ severus
+ 4. azkaban ~ sirius
 
